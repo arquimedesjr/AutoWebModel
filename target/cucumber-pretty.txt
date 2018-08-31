@@ -1,0 +1,13 @@
+Feature: Realizar login
+
+  Scenario Outline: Realizar Login na aplica��o Web bpm      [90m# TestFuncionalidadeGoogle.feature:3[0m
+    [36mGiven [0m[36minicializo aplicacao web com a 'url' "<url>"[0m
+    [36mWhen [0m[36minsiro no botao busca a 'informacao' "<informacao>"[0m
+    [36mAnd [0m[36mclico em buscar[0m
+
+    Examples: 
+
+  Scenario Outline: Realizar Login na aplica��o Web bpm                  [90m# TestFuncionalidadeGoogle.feature:11[0m
+    [32mGiven [0m[32minicializo aplicacao web com a 'url' "[0m[32m[1mhttps://www.google.com/[0m[32m"[0m [90m# StepDefinition.inicializo_aplicacao_web_com_a_url(String)[0m
+    [32mWhen [0m[32minsiro no botao busca a 'informacao' "[0m[32m[1mTeste Automatico[0m[32m"[0m         [90m# StepDefinition.insiro_no_botao_busca_a_informacao(String)[0m
+    [32mAnd [0m[32mclico em buscar[0m                                                  [90m# StepDefinition.clico_em_buscar()[0m

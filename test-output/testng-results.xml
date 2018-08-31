@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12620" started-at="2018-08-31T20:34:59Z" finished-at="2018-08-31T20:35:12Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunnerTest.testMain(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:br.com.automationWeb.Santander.runnerTest.RunnerTest@5fcd892a]" name="testMain" class="br.com.automationWeb.Santander.runnerTest.RunnerTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="12620" started-at="2018-08-31T20:34:59Z" finished-at="2018-08-31T20:35:12Z">
+      <class name="br.com.automationWeb.Santander.runnerTest.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:br.com.automationWeb.Santander.runnerTest.RunnerTest@5fcd892a]" name="setUpClass" is-config="true" duration-ms="5476" started-at="2018-08-31T20:34:59Z" finished-at="2018-08-31T20:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testMain(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:br.com.automationWeb.Santander.runnerTest.RunnerTest@5fcd892a]" name="testMain" duration-ms="4534" started-at="2018-08-31T20:35:05Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-31T20:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Realizar login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:br.com.automationWeb.Santander.runnerTest.RunnerTest@5fcd892a]" name="tearDownClass" is-config="true" duration-ms="2499" started-at="2018-08-31T20:35:09Z" finished-at="2018-08-31T20:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- br.com.automationWeb.Santander.runnerTest.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

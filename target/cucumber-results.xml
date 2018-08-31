@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.450393">
+<testcase classname="Realizar login" name="Realizar Login na aplica��o Web bpm" time="4.450393">
+<system-out><![CDATA[Given inicializo aplicacao web com a 'url' "https://www.google.com/"........passed
+When insiro no botao busca a 'informacao' "Teste Automatico"................passed
+And clico em buscar.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

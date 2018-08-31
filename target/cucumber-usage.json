@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^inicializo aplicacao web com a \u0027url\u0027 \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "inicializo aplicacao web com a \u0027url\u0027 \"https://www.google.com/\"",
+        "aggregatedDurations": {
+          "average": 2.128479628,
+          "median": 2.128479628
+        },
+        "durations": [
+          {
+            "duration": 2.128479628,
+            "location": "TestFuncionalidadeGoogle.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^clico em buscar$",
+    "steps": [
+      {
+        "name": "clico em buscar",
+        "aggregatedDurations": {
+          "average": 1.695518163,
+          "median": 1.695518163
+        },
+        "durations": [
+          {
+            "duration": 1.695518163,
+            "location": "TestFuncionalidadeGoogle.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^insiro no botao busca a \u0027informacao\u0027 \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "insiro no botao busca a \u0027informacao\u0027 \"Teste Automatico\"",
+        "aggregatedDurations": {
+          "average": 0.626395147,
+          "median": 0.626395147
+        },
+        "durations": [
+          {
+            "duration": 0.626395147,
+            "location": "TestFuncionalidadeGoogle.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
